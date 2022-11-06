@@ -24,20 +24,6 @@
             </div>
           </template>
         </v-marker>
-        <!-- <v-marker
-          v-for="(marker, idx) in markers"
-          :key="idx"
-          :coordinates="marker.coordinates"
-          :options="marker.options"
-          :popup-options="marker.popup"
-        >
-          <template>
-            <div class="p-2 text-black">
-              Popup Content: {{ marker.popup.content }}
-              <img class="rounded shadow-sm" src="https://static.wikia.nocookie.net/prettylittleliars/images/8/82/Alice.png/revision/latest?cb=20121212224537" />
-            </div>
-          </template>
-        </v-marker> -->
       </template>
     </v-map>
   </main>
